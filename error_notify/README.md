@@ -22,7 +22,7 @@ mail sent successfully
 
 # 送られてきたメール
 ```
-Error occurred. *(件名)
+Error occurred. (件名)
 AWS Notifications [no-reply@sns.amazonaws.com] (送り元)
 
 
