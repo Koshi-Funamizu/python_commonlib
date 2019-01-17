@@ -1,4 +1,4 @@
-# notification
+# notification.py
 aws snsでエラーログをメールで送信するプログラム
 
 # 使用例
