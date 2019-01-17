@@ -6,6 +6,7 @@ lambda_client = boto3.client('lambda')
 
 # Lambda Invoke関数
 def invoke_lambda(lambda_function_name: str, event_dict=None):
+    # デフォルト
     if event_dict == None:
         event_dict = {
             "key1": "value1",
