@@ -28,10 +28,10 @@ def calculate_age(day_of_birth: str):
     
     # 〇〇代出力
     if  int(age) < 10: # 10歳以上
-    	print('10代未満')
+    	generation = '10代未満'
     elif int(age) > 100: #100歳以上
-        print('100歳以上')
+        generation = '100歳以上'
     else: #0 < age < 100
-        print(f'{str(age)[:1]}0代')
+        generation = f'{str(age)[:1]}0代'
 
-    return age
+    return age, generation
