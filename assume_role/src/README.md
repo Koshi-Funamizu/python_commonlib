@@ -1,2 +1,2 @@
 # assume_role.py
-Boto3でAssume　roleして他のロールに切り替える関数
+Boto3を使用し、Assumeroleで他のロールに切り替える関数
