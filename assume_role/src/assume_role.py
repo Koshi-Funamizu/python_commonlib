@@ -1,3 +1,4 @@
+import os
 import boto3
 
 def assumerole(assume_role_arn, s2_assume_role_session_id)
